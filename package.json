@@ -1,0 +1,27 @@
+{
+  "name": "mock-aws",
+  "version": "1.0.0",
+  "description": "Mock AWS setup locally",
+  "main": "index.js",
+  "scripts": {
+    "s3:publish": "node index.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SereneMatt/mock-aws.git"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "SereneMatt🐱",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SereneMatt/mock-aws/issues"
+  },
+  "homepage": "https://github.com/SereneMatt/mock-aws#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mock-aws-s3": "^4.0.2"
+  }
+}
